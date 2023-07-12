@@ -1,0 +1,16 @@
+.container{
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.container:hover .container2{
+    transform: translateY(-150px);
+}
+.container2{
+    transition: all 1s ease;
+    /* border: 2px solid rgb(0, 255, 102); */
+}
